@@ -1,0 +1,25 @@
+# # Check if nuber is even or odd
+# input_num = int(input("Pls enter the numer of your choice : "))
+# if input_num % 2 == 0:
+#     print("Its Even number")
+# else:
+#     print("Its Odd number")
+
+
+#Roller coster if and else 
+
+Height = int(input("Pls enter your height : "))
+Age = int(input("Pls enter your age : "))
+if Height >= 120:
+    print("you can ride: ")
+    if Age >= 18:
+        print("Pay 10$")
+    else:
+        print("Pay 8$")
+else:
+    print("Sorry you cant ride")
+
+
+
+#elif --> will check for another if condition and iwll continue on 
+# logical operator = and, or, not
